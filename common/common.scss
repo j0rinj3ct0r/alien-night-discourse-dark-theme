@@ -391,4 +391,11 @@ td {
     transform: translate3d(0, 0, 0);
   }
 }
-
+.badge-wrapper.box span.badge-category-bg, .badge-wrapper.box span.badge-category-parent-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 6px;
+}
