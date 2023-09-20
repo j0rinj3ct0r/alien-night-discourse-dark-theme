@@ -404,3 +404,12 @@ td {
   border-bottom: 5px inset #800000;
   box-shadow: 0 -30px 100px -1px #800000;
 }
+.list-controls .combo-box .combo-box-header {
+  background: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--primary-medium);
+  font-size: var(--font-0);
+  transition: none;
+  height: 100%;
+  border-radius: 10px;
+}
