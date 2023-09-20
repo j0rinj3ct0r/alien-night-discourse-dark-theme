@@ -413,3 +413,14 @@ td {
   height: 100%;
   border-radius: 10px;
 }
+
+element {
+}
+.nav-pills > li a.active, .nav-pills > li button.active {
+  color: var(--secondary);
+
+  background-color: var(--quaternary);
+
+  border-radius: 10px;
+
+}
